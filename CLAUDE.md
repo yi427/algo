@@ -20,6 +20,7 @@ When adding algorithm templates:
 - Place language-specific implementations in the corresponding `templates/{language}/` directory
 - Keep templates focused and reusable
 - Use consistent naming across languages for the same algorithm
+- Templates may include multiple variants (e.g., `quick_pow` and `quick_pow_with_mod` for different use cases)
 
 When adding problem solutions:
 - Organize by platform (leetcode or lanqiao)
