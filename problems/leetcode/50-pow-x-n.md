@@ -24,6 +24,9 @@
 **Python 实现：**
 [查看代码](../../templates/python/quick_pow.py)
 
+**Swift 实现：**
+[查看代码](../../templates/swift/quick_pow.swift)
+
 
 ## 复杂度分析
 

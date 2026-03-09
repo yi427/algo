@@ -39,3 +39,20 @@ def quick_pow_with_mod(x: int, n: int, p: int = 1_000_000_007) -> int:
     return res
 ```
 
+### 3. Swift 实现
+
+```swift
+func quick_pow(_ x: Double, _ n: Int) -> Double {
+    var base = x, power = n.magnitude
+    var res: Double = 1.0
+    while power > 0 {
+        if power & 1 == 1 {
+            res *= base
+        }
+        base *= base
+        power >>= 1
+    }
+    return n < 0 ? 1.0 / res : res
+}
+```
+
