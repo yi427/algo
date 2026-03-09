@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.pytest_cache/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+
+# Java
+*.class
+target/
+
+# C/C++
+*.o
+*.out
+a.out
+
+# JavaScript
+node_modules/
+
+# Claude
+.claude/
