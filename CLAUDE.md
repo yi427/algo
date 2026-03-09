@@ -8,11 +8,11 @@ This is a personal algorithm learning repository for recording algorithm templat
 
 ## Repository Structure
 
-- `templates/{language}/` - Algorithm template implementations by language (python, java, cpp, go, javascript)
+- `templates/{language}/` - Algorithm template implementations by language (currently: python, swift)
 - `docs/data-structures/` - Data structure study notes and documentation
-- `docs/algorithms/` - Algorithm study notes and documentation
-- `problems/leetcode/` - LeetCode problem solutions
-- `problems/lanqiao/` - Lanqiao (蓝桥杯) problem solutions
+- `docs/algorithms/` - Algorithm study notes and documentation (e.g., quick_pow.md)
+- `problems/leetcode/` - LeetCode problem solutions with README.md index
+- `problems/lanqiao/` - Lanqiao (蓝桥杯) problem solutions with README.md index
 
 ## Working with This Repository
 
@@ -25,6 +25,8 @@ When adding algorithm templates:
 When adding problem solutions:
 - Organize by platform (leetcode or lanqiao)
 - Solutions can be in any of the supported languages
+- Create a markdown file for each problem with links to template code
+- Update the platform's README.md index file with problem classification
 
 When writing documentation:
 - Use Chinese for notes (user's preferred language)

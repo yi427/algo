@@ -11,10 +11,7 @@ algo/
 │   └── algorithms/           # 算法笔记
 ├── templates/                # 算法模板（按语言分类）
 │   ├── python/
-│   ├── java/
-│   ├── cpp/
-│   ├── go/
-│   └── javascript/
+│   └── swift/
 └── problems/                 # 练习题
     ├── leetcode/
     └── lanqiao/
@@ -25,3 +22,15 @@ algo/
 - `docs/` - 存放算法和数据结构的学习笔记
 - `templates/` - 存放各种语言的算法模板代码
 - `problems/` - 存放练习题的解答
+
+## 学习进度
+
+- **LeetCode**: 1 题
+- **蓝桥杯**: 3 题
+- **算法模板**: 快速幂（Python, Swift）
+
+## 项目特色
+
+- 题解文档通过相对路径链接到模板代码，实现代码复用
+- 每个平台都有 README.md 索引文件，按算法类型分类
+- 支持多种编程语言的模板实现
