@@ -5,11 +5,12 @@
 This repository stores algorithm templates, study notes, and problem solutions.
 
 - `templates/python/` and `templates/swift/`: reusable algorithm implementations such as `quick_pow`, `dsu`, and `trie`.
-- `templates/python/tests/`: Python template tests. Current examples use `pytest`.
+- `templates/python/tests/`: Python template tests using `pytest`.
 - `docs/algorithms/` and `docs/data-structures/`: Chinese study notes for algorithms and data structures.
 - `problems/leetcode/` and `problems/lanqiao/`: problem write-ups named by platform ID, for example `204.md` or `17152.md`.
 
 When adding a new solution, keep the explanation in a standalone Markdown file and update the platform README index in the same directory.
+Also keep root `README.md` progress counts in sync with platform indexes.
 
 ## Build, Test, and Development Commands
 
@@ -32,6 +33,7 @@ Use 4-space indentation in Python and Swift. Follow the existing naming patterns
 - Problem notes: numeric filenames such as `50.md` or `5003.md`.
 
 Keep Markdown notes in Chinese, consistent with the current docs. Prefer concise comments and reusable template code over problem-specific shortcuts.
+When extending an existing problem note, only add the solution variants requested by the contributor; do not append extra approaches by default.
 
 ## Testing Guidelines
 
